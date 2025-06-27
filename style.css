@@ -1,0 +1,79 @@
+:root {
+      --primary-color: #dc3545;
+      --accent-color: #28a745;
+      --light-bg: #f8f9fa;
+      --text-color: #333;
+    }
+    body {
+      color: var(--text-color);
+    }
+    .custom-contact-btn {
+    background-color: transparent;
+    color: #fff; /* red text */
+    border: 2px solid #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+  .custom-contact-btn:hover {
+    background-color: #28a745; /* green */
+    color: #fff;
+    border-color: #28a745;
+  }
+    
+    .services .card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      padding: 20px 0;
+      text-align: center;
+    }
+.hero {
+  background: url('img/header.jpg') center center / cover no-repeat;
+  min-height: 500px; 
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+.navbar-nav .nav-link {
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: #333;
+}
+.navbar-nav .nav-link:hover
+ {
+  color: #28a745;
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+.custom-submit {
+    background-color: white;
+    border: 2px solid #dc3545;
+    color: #dc3545;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+
+  .custom-submit:hover {
+    background-color: #dc3545;
+    color: white;
+  }
